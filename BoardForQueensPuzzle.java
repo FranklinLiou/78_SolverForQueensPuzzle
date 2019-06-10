@@ -25,7 +25,11 @@ public class BoardForQueensPuzzle {
               filesWithQueens.
      */
     public BoardForQueensPuzzle( BoardForQueensPuzzle old) {
-        // your code here
+        lastRankFilled = old.lastRankFilled;
+        filesWithQueens = new int[old.ranks()];
+        for (int i = 0; i < filesWithQueens.length; i++) {
+            filesWithQueens[i] = old.filesWithQueens[i];
+        }
     }
 
 
@@ -48,7 +52,6 @@ public class BoardForQueensPuzzle {
     public int ranks() {
         return filesWithQueens.length;
     }
-
 
     /**
       @return the boolean value of the statement

@@ -1,13 +1,9 @@
 # represent a solver for the queens problem
 
-## [your name here]'s remarks
+## Franklin's remarks
 
 ### citations / worked with / received help from
-Replace this paragraph with a solid accounting of your sources.
-People have become either lackadaisical or dishonest
-about crediting others for ideas and help. 
-If I grade this work, I will rely on this section as
-a complete listing for judging academic honesty.
+I received help from Eric Lau when completing the snapshot diagrams which subsequently helped me create the copy constructor in `BoardForQueensPuzzle`. I also received help from Saad Bhuiyan when trying to call the `recordSolutionsStarted` method. I got confused because the method itself does not return anything and Saad helped me figure out how to successfully use the method recursively.
 
 This list may omit sources common to everyone in the course,
 including...
